@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>10 Days of Us — Countdown</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <!-- If you want GSAP smooth timeline animations, uncomment below and ensure internet access -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> 
+</head>
+<body>
+  <canvas id="petal-canvas" aria-hidden="true"></canvas>
+  <div id="grain-overlay" aria-hidden="true"></div>
+  <div id="light-overlay"></div>
+
+  <main class="container">
+    <header class="front-hero">
+      <div class="portrait-wrap">
+        <img id="friend-photo" src="assets/images/friend-photo.jpeg" alt="friend" />
+        <div class="portrait-glow"></div>
+        <div class="polaroid">
+          <div class="polaroid-text">10 Days of Us</div>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <h1 class="title script">For Keerthana</h1>
+        <p class="subtitle">This is a little slow, soft countdown — 10 tiny doors of memories and feelings.</p>
+          <div id="friendship-quote" class="friendship-quote">“Some souls just understand each other.”</div>
+        <div id="global-countdown" class="countdown" aria-live="polite"></div>
+        <div class="controls">
+          <button id="music-toggle" class="control-btn">Play music</button>
+          <button id="start-tour" class="control-btn">Open the calendar</button>
+        </div>
+      </div>
+    </header>
+
+    <section id="cards-grid" class="grid" aria-label="Countdown days"></section>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-card">
+        <button id="modal-close" class="close">✕</button>
+        <div id="modal-content" class="modal-content"></div>
+      </div>
+    </div>
+
+    <footer class="footer">Made with ♥ — open your first door on Nov 18, 2025</footer>
+  </main>
+
+  <script src="data/content.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
