@@ -130,7 +130,7 @@
           <h2>${item.title}</h2>
           <div id="typed-text"></div>
           <div style="margin-top:12px;opacity:.9">
-            <p>Hey Varsha 🌿</p>
+            <p>Hey Keerthana </p>
             <p>This isn’t just a countdown — it’s a little corner I made for us.</p>
             <p>For the next ten days, every box here holds a small memory, a smile, a moment, or just a tiny piece of how much you mean to me.</p>
             <p>Think of it like a digital advent calendar — each day unlocking at midnight, waiting quietly until it’s time.</p>
@@ -349,3 +349,4 @@ function startQuiz(dayItem) {
 
 
 })(); // end IIFE
+
