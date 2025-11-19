@@ -7,9 +7,9 @@ const DAYS = [
   {day:10, date:'2025-11-18', emoji:'🎈', title:'Welcome Princess + countdown Days', type:'note'},
   {day:9,  date:'2025-11-19', emoji:'💬', title:'A heartfelt letter', type:'letter', letterHtml:`<p>Hi ${FRIEND_NAME},</p><p>I made this for you — ten tiny doors for ten tiny memories. I hope each one brings a smile. ❤️</p>`},
   {day:8,  date:'2025-11-20', emoji:'📸', title:'Photo memory gallery', type:'gallery',images: [
-  { src: 'assets/images/day8-1.jpeg', caption: 'That random rainy walk ☔' },
-  { src: 'assets/images/day8-1.jpeg', caption: 'The day you couldn’t stop laughing 😂' },
-  { src: 'assets/images/day8-1.jpeg', caption: 'Our favorite café moment ☕' }
+  { src: 'assets/images/day8-1.jpeg', caption: 'At this time , i never imagined that me and you would became this close !' },
+  { src: 'assets/images/day8-2.jpeg', caption: 'This is one of my fav movements !' },
+  { src: 'assets/images/day8-1.jpeg', caption: 'Good old days !, I know we dont have much photos together , maybe thats the reason we are still holding together' }
 ],},
   {day:7,  date:'2025-11-21', emoji:'🎧', title:'Playlist surprise', type:'playlist', playlistUrl:'https://open.spotify.com/playlist/REPLACE_WITH_YOURS'},
   {day:6,  date:'2025-11-22', emoji:'🎥', title:'Mini video', type:'video', video:'assets/videos/day6.mp4'},
@@ -45,3 +45,4 @@ const DAYS = [
 ];
 
 const BIRTHDAY = {date:'2025-11-28', type:'birthday', emoji:'🎉', title:'Happy Birthday!', birthdayHtml:`<h1>Happy Birthday ${FRIEND_NAME} 🎂</h1><p>All my love today and always.</p><video controls src='assets/videos/birthday-video.mp4'></video>`};
+
