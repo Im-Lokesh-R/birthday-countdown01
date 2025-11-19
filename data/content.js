@@ -9,7 +9,7 @@ const DAYS = [
   {day:8,  date:'2025-11-20', emoji:'📸', title:'Photo memory gallery', type:'gallery',images: [
   { src: 'assets/images/day8-1.jpeg', caption: 'At this time , i never imagined that me and you would became this close !' },
   { src: 'assets/images/day8-2.jpeg', caption: 'This is one of my fav movements !' },
-  { src: 'assets/images/day8-1.jpeg', caption: 'Good old days !, I know we dont have much photos together , maybe thats the reason we are still holding together' }
+  { src: 'assets/images/day8-3.jpeg', caption: 'Good old days !, I know we dont have much photos together , maybe thats the reason we are still holding together' }
 ],},
   {day:7,  date:'2025-11-21', emoji:'🎧', title:'Playlist surprise', type:'playlist', playlistUrl:'https://open.spotify.com/playlist/REPLACE_WITH_YOURS'},
   {day:6,  date:'2025-11-22', emoji:'🎥', title:'Mini video', type:'video', video:'assets/videos/day6.mp4'},
@@ -45,4 +45,5 @@ const DAYS = [
 ];
 
 const BIRTHDAY = {date:'2025-11-28', type:'birthday', emoji:'🎉', title:'Happy Birthday!', birthdayHtml:`<h1>Happy Birthday ${FRIEND_NAME} 🎂</h1><p>All my love today and always.</p><video controls src='assets/videos/birthday-video.mp4'></video>`};
+
 
