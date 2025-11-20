@@ -11,7 +11,7 @@ const DAYS = [
   { src: 'assets/images/day8-2.jpeg', caption: 'This is one of my fav movements !' },
   { src: 'assets/images/day8-3.jpeg', caption: 'Good old days !, I know we dont have much photos together , maybe thats the reason we are still holding together' }
 ],},
-  {day:7,  date:'2025-11-21', emoji:'🎧', title:'Playlist surprise', type:'playlist', playlistUrl:'https://open.spotify.com/playlist/REPLACE_WITH_YOURS'},
+  {day:7,  date:'2025-11-21', emoji:'🎧', title:'Playlist surprise', type:'playlist', playlistUrl:'https://open.spotify.com/playlist/0jbyWga5xHiRJEjQVp536C?si=707f6e5a5e12401f'},
   {day:6,  date:'2025-11-22', emoji:'🎥', title:'Mini video', type:'video', video:'assets/videos/day6.mp4'},
   {day:5,  date:'2025-11-23', emoji:'💫', title:'Compliment generator', type:'compliments', compliments:[
       'You make ordinary days magical ✨',
@@ -45,5 +45,6 @@ const DAYS = [
 ];
 
 const BIRTHDAY = {date:'2025-11-28', type:'birthday', emoji:'🎉', title:'Happy Birthday!', birthdayHtml:`<h1>Happy Birthday ${FRIEND_NAME} 🎂</h1><p>All my love today and always.</p><video controls src='assets/videos/birthday-video.mp4'></video>`};
+
 
 
