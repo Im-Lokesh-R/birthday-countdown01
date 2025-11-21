@@ -191,7 +191,7 @@
   if(modal){
     modal.addEventListener('click', e=>{
       if(e.target && e.target.id === 'comp-btn'){
-        const dayObj = (typeof DAYS !== 'undefined') ? DAYS.find(d=>d.day===5) : null;
+        const dayObj = (typeof DAYS !== 'undefined') ? DAYS.find(d=>d.day===6) : null;
         const list = dayObj ? dayObj.compliments : [];
         const pick = list.length ? list[Math.floor(Math.random()*list.length)] : 'You are wonderful.';
         const compText = document.getElementById('comp-text');
@@ -349,4 +349,5 @@ function startQuiz(dayItem) {
 
 
 })(); // end IIFE
+
 
