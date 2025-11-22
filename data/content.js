@@ -77,21 +77,22 @@ const DAYS = [
     "You're what happens when beauty and chaos collaborate,",
     "Your face should honestly start charging appearance fees,",
   ]},
-   {day:5,  date:'2025-11-23', emoji:'🎥', title:'Mini video', type:'video', video:'assets/videos/day6.mp4'},
-  {day:4,  date:'2025-11-24', emoji:'📜', title:'Memory quiz', type:'quiz', 
+  {day:5,  date:'2025-11-23', emoji:'📜', title:'Memory quiz', type:'quiz', 
     quizSet:[
         {
                   q:'Where did we first meet in school?', options:['Classroom','Canteen','PT','Online Class'], answer:0,
 
         },
         {
-                  q:'Who approched first?',options:['Loki','Life did !','Varsha','Your beauty!'],answer:2,
+                  q:'Who approched first?',options:['Loki','Life did !','You','Your beauty!'],answer:2,
 
         },
         {
                   q:'What do you think about me ?',options:['Good guy','Great guy','Nice guy','All of the above'],answer:3,
 
         },
+         {day:4,  date:'2025-11-24', emoji:'🎥', title:'Mini video', type:'video', video:'assets/videos/day6.mp4'},
+
         
 ]},
   {day:3,  date:'2025-11-25', emoji:'🪄', title:'Digital gift box', type:'gift', giftHtml:`<h3>A tiny surprise</h3><p>Here’s a doodle and a little note.</p><img src='assets/images/gift-doodle.jpg' alt='doodle'>`},
@@ -102,6 +103,7 @@ const DAYS = [
 ];
 
 const BIRTHDAY = {date:'2025-11-28', type:'birthday', emoji:'🎉', title:'Happy Birthday!', birthdayHtml:`<h1>Happy Birthday ${FRIEND_NAME} 🎂</h1><p>All my love today and always.</p><video controls src='assets/videos/birthday-video.mp4'></video>`};
+
 
 
 
