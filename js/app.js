@@ -199,7 +199,7 @@
       }
       if(e.target && e.target.classList.contains('qopt')){
         const idx = Number(e.target.dataset.i);
-        const dayObj = (typeof DAYS !== 'undefined') ? DAYS.find(d=>d.day===4) : null;
+        const dayObj = (typeof DAYS !== 'undefined') ? DAYS.find(d=>d.day===5) : null;
         const ok = dayObj ? idx === dayObj.quiz.answer : false;
         setTimeout(()=>{ alert(ok? 'Yes — You remembered! 😊' : 'Haha — that one was tricky 😂'); }, 80);
       }
@@ -349,5 +349,6 @@ function startQuiz(dayItem) {
 
 
 })(); // end IIFE
+
 
 
